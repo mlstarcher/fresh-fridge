@@ -1,0 +1,50 @@
+{
+  "name": "fresh-fridge",
+  "version": "1.0.0",
+  "description": "An app to track produce expiration and suggest recipe ideas",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server",
+    "test": "test",
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlstarcher/fresh-fridge.git"
+  },
+  "author": "Matthew Starcher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mlstarcher/fresh-fridge/issues"
+  },
+  "homepage": "https://github.com/mlstarcher/fresh-fridge#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.26.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.3",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "morgan": "^1.10.0",
+    "prettier": "^2.3.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
